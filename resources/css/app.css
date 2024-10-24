@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@layer{
+    .item-menu{
+        @apply flex items-center pl-3 py-3 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-300 dark:hover:bg-gray-700;
+    }
+    .item-menu-text{
+        @apply ml-3
+    }
+    .list-menu{
+        @apply bg-white
+    }
+    .div-modulo{
+        @apply px-3 py-2 bg-cyan-600 text-white w-full;
+    }
+    .icon-menu{
+        @apply text-cyan-500
+    }
+}

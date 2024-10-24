@@ -1,5 +1,5 @@
 <x-plantillas.navegacion>
-    <div>
+    <div class="px-2 pt-4">
         @livewire('trabajador.form-trabajador')
         <x-plantillas.table>
             <table class="w-full  bg-white text-left text-sm text-gray-500">
@@ -11,10 +11,8 @@
                   </tr>
                 </thead>
                 <tbody class="divide-y divide-gray-100 border-t border-gray-100">
-                   
                   <tr class="hover:bg-gray-50">
                     <th class="flex gap-3 px-6 py-4 font-normal text-gray-900">
-          
                       <div class="text-sm">
                         <div class="font-medium text-gray-700">
                          asd
@@ -51,7 +49,6 @@
                       </div>
                     </td>
                   </tr>
-       
                 </tbody>
               </table>
         </x-plantillas.table>

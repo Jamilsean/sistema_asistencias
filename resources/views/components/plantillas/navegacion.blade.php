@@ -1,90 +1,99 @@
 <x-plantillas.plantilla>
     <div class="flex">
-        <div class="hidden md:flex flex-col h-screen bg-white">
-            <div class="  flex items-center justify-center h-16 text-indigo-900">
-                LOGO DE LA EMPRESAass dd   
+        <div class="hidden md:flex flex-col h-screen bg-cyan-700">
+            <div class="  flex items-center justify-center h-20 text-indigo-900">
+                .
             </div>
           <!-- component -->
     <!-- This is an example component -->
     <div class="max-w-4xl mx-auto">
     
-        <aside class="w-64" aria-label="Sidebar">
-            <div class="pl-2 py-2  overflow-y-auto rounded   dark:bg-gray-800">
-                <div class="mt-5 font-semibold">
-                    <label for="" class="mx-2 mt-3">Modulo del Trabajador</label>
-                    <ul class="space-y-2">
-                        <li>
+        <aside class="mt-3 w-64" aria-label="Sidebar">
+            <div class=" py-2  overflow-y-auto rounded   dark:bg-gray-800">
+                <div class="mt-5 font-semibold ">
+                    <div class="div-modulo">
+                        <label for="" class="mx-2 mt-3 ">Modulo del Trabajador</label>
+                    </div>
+                    
+                    <ul class="">
+                        <li class="list-menu">
                             <a href="#"
-                                class="flex items-center py-3 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-300 dark:hover:bg-gray-700">
-                                <i class="fa-solid fa-users text-blue-500"></i>
+                                class="item-menu">
+                                <i class="fa-solid fa-users icon-menu"></i>
                                 <span class="ml-3">Registro de asistencias</span>
                             </a>
                         </li> 
-                        <li>
+                        <li class="list-menu">
                             <a href="#"
-                                class="flex items-center py-3 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-300 dark:hover:bg-gray-700">
-                                <i class="fa-solid fa-users text-blue-500"></i>
+                                class="item-menu">
+                                <i class="fa-solid fa-users icon-menu"></i>
                                 <span class="ml-3">Registro de permisos</span>
                             </a>
                         </li>
-                        <li>
+                        <li class="list-menu">
                             <a href="#"
-                                class="flex items-center py-3 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-300 dark:hover:bg-gray-700">
-                                <i class="fa-solid fa-users text-blue-500"></i>
+                                class="item-menu">
+                                <i class="fa-solid fa-users icon-menu"></i>
                                 <span class="ml-3">Registro de autorizaciones</span>
                             </a>
                         </li>
                     </ul>
                 </div>
-                <div class="mt-5 font-semibold">
-                    <label for="" class="mx-2 mt-3">Modulo del Administrador</label>
-                    <ul class="space-y-2">
-                        <li>
+                <div class="  font-semibold">
+                    <div class="div-modulo">
+                        <label for="" class="mx-2 mt-3 ">Modulo del Administrador</label>
+                    </div>
+                   
+                    <ul class=" ">
+                        <li class="list-menu">
                             <a href="#"
-                                class="flex items-center py-3 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-300 dark:hover:bg-gray-700">
-                                <i class="fa-solid fa-users text-green-500"></i>
+                            class="item-menu">
+                                <i class="fa-solid fa-users icon-menu"></i>
                                 <span class="ml-3">Registro de horarios</span>
                             </a>
                         </li> 
-                        <li>
+                        <li class="list-menu">
                             <a href="#"
-                                class="flex items-center py-3 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-300 dark:hover:bg-gray-700">
-                                <i class="fa-solid fa-users text-green-500"></i>
+                                class="item-menu">
+                                <i class="fa-solid fa-users icon-menu"></i>
                                 <span class="ml-3">Registro de días</span>
                             </a>
                         </li>
-                        <li>
+                        <li class="list-menu">
                             <a href="#"
-                                class="flex items-center py-3 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-300 dark:hover:bg-gray-700">
-                                <i class="fa-solid fa-users text-green-500"></i>
+                                class="item-menu">
+                                <i class="fa-solid fa-users icon-menu"></i>
                                 <span class="ml-3">Registro de usuario</span>
                             </a>
                         </li>
                     </ul>
                 </div>
-                <div class="mt-5 font-semibold">
-                    <label for="" class="mx-2 mt-3">Modulo del RRHH</label>
-                    <ul class="space-y-2">
-                        <li>
+                <div class="  font-semibold">
+                    <div class="div-modulo">
+                        <label for="" class="mx-2 mt-3">Modulo del RRHH</label>
+                    </div>
+                    
+                    <ul class=" ">
+                        <li class="list-menu">
                             <a href="#"
-                                class="flex items-center px-2 py-3 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-300 dark:hover:bg-gray-700">
-                                <i class="fa-solid fa-file-export text-red-500"></i>
+                                class="item-menu">
+                                <i class="fa-solid fa-file-export icon-menu"></i>
                                 <span class="ml-3">Reportes</span>
                             </a>
                         </li> 
-                        <li>
+                        <li class="list-menu">
                             <a href="#"
-                                class="flex items-center py-3 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-300 dark:hover:bg-gray-700">
+                                class="item-menu">
                                
-                                <i class="fa-solid fa-people-group text-red-500"></i>
+                                <i class="fa-solid fa-people-group icon-menu"></i>
                                 <span class="ml-3">Registro de personal</span>
                             </a>
                         </li>
-                        <li>
+                        <li class="list-menu">
                             <a href="#"
-                                class="flex items-center py-3 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-300 dark:hover:bg-gray-700">
+                                class="item-menu">
                                
-                                <i class="fa-solid fa-hourglass-half text-red-500"></i>
+                                <i class="fa-solid fa-hourglass-half icon-menu"></i>
                                 <span class="ml-3">Registro de horarios</span>
                             </a>
                         </li>
@@ -98,7 +107,7 @@
              
         </div>
         <div class=" flex-grow ">
-            <nav x-data="{ open: false }" class=" bg-indigo-600 dark:bg-gray-800 border-b border-gray-100 dark:border-gray-700">
+            <nav x-data="{ open: false }" class=" bg-cyan-700 dark:bg-gray-800 border-b border-gray-100 dark:border-gray-700">
             <!-- Primary Navigation Menu -->
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-6">
                 <div class="flex justify-end  h-16"> 
@@ -228,7 +237,7 @@
             </div>
         </nav>
         
-        <div class="bg-red-400 p-4">
+        <div class="">
           {{$slot}}
         </div>
         </div>

@@ -15,7 +15,7 @@
                     // Obtener latitud y longitud
                     const latitude = position.coords.latitude;
                     const longitude = position.coords.longitude;
-
+                    @this.updateLocation(position.coords.latitude, position.coords.longitude);
                     // Crear la URL de Google Maps con las coordenadas
                     const googleMapsUrl = `https://www.google.com/maps?q=${latitude},${longitude}`;
 
