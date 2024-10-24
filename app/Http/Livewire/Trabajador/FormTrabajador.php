@@ -7,7 +7,7 @@ use WireUi\Traits\Actions;
 
 class FormTrabajador extends Component
 {
-    use Actions; 
+    use Actions;
     public $latitude;
     public $longitude;
     public function render()
@@ -22,7 +22,7 @@ class FormTrabajador extends Component
             'icon'        => 'question',
             'accept'      => [
                 'label'  => 'Sí, activar',
-                'method' => 'imprimir_boleta',
+                'method' => 'obtenerUbicacion',
                 'params' => [22],
             ],
             'reject' => [
@@ -33,18 +33,21 @@ class FormTrabajador extends Component
  
          
     }
+    public function obtenerUbicacion()
+    {
+        $this->latitude="entro;";
+        $this->emitSelf('obtenerUbicacion');
+        $this->latitude="entro;22";
+    }
+
+    // Esta función se llama desde el frontend para actualizar la ubicación
     public function updateLocation($latitude, $longitude)
     {
         $this->latitude = $latitude;
         $this->longitude = $longitude;
 
-        // Puedes procesar la ubicación aquí o guardarla en la base de datos
-        // Por ejemplo: Guardar en la base de datos
-        // Auth::user()->update([
-        //     'latitude' => $latitude,
-        //     'longitude' => $longitude,
-        // ]);
-
-        // O puedes usar este dato para algo más en tiempo real
+        // Solo para ver el resultado en el log o puedes hacer algo más aquí
+       // \Log::info('Ubicación actualizada: ' . $latitude . ', ' . $longitude);
     }
+     
 }

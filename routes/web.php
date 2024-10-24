@@ -25,5 +25,19 @@ Route::middleware([
     Route::get('/dashboard', function () {
         return view('app/index');
     })->name('dashboard');
+    Route::get('/asistencias', function () {
+        return view('app/trabajador/registro_asistencia');
+    })->name('asistencias');
+    Route::get('/permisos', function () {
+        return view('app/trabajador/registro_permisos');
+    })->name('permisos');
+    
+    Route::get('/autorizaciones', function () {
+        return view('app/trabajador/registro_asistencia');
+    })->name('autorizaciones');
+    Route::get('/horarios', function () {
+        return view('app/trabajador/registro_asistencia');
+    })->name('horarios');
+
 
 });
