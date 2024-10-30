@@ -33,7 +33,7 @@ Route::middleware([
     })->name('permisos');
     
     Route::get('/autorizaciones', function () {
-        return view('app/trabajador/registro_asistencia');
+        return view('app/trabajador/registro_autorizacion');
     })->name('autorizaciones');
     Route::get('/horarios', function () {
         return view('app/trabajador/registro_asistencia');

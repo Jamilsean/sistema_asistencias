@@ -26,14 +26,14 @@
                             <li class="list-menu">
                                 <a href="{{ route('permisos') }}"
                                     class="item-menu">
-                                    <i class="fa-solid fa-users icon-menu"></i>
+                                    <i class="fa-solid fa-clock icon-menu"></i>
                                     <span class="ml-3">Registro de permisos</span>
                                 </a>
                             </li>
                             <li class="list-menu">
                                 <a href="{{ route('autorizaciones') }}"
                                     class="item-menu">
-                                    <i class="fa-solid fa-users icon-menu"></i>
+                                    <i class="fa-solid fa-hourglass-half icon-menu"></i>
                                     <span class="ml-3">Registro de autorizaciones</span>
                                 </a>
                             </li>
@@ -55,7 +55,7 @@
                             <li class="list-menu">
                                 <a href="{{ route('asistencias') }}"
                                     class="item-menu">
-                                    <i class="fa-solid fa-users icon-menu"></i>
+                                    <i class="fa-solid fa-calendar-days icon-menu"></i>
                                     <span class="ml-3">Registro de días</span>
                                 </a>
                             </li>
